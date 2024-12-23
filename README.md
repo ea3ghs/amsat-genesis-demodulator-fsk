@@ -1,2 +1,9 @@
 # amsat-genesis-demodulator-fsk
-FSK demodulator and sample recordings
+
+Sample recordings of AMSAT-GENESIS satelites.
+Just run
+
+ mkdir received
+ cat genesis-*-24ksps-s16le-*.raw | dm | tm
+
+73/DX EA3GHS
